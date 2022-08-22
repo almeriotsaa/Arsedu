@@ -3,6 +3,12 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+header{
+    background: #fff;
+    min-height: 70px;   
+    border-bottom: #e6e6e6 2px solid;
+    scroll-behavior: smooth;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -83,4 +89,13 @@ ul li a:hover::after{
     background: #64B5F6;
     color: #fff;
 }
-       
+.banner{
+    display: flex;
+    margin-top: 30px;
+}
+.left-column,.right-column{
+    flex-basis: 50%;
+}
+.right-column img{
+    width: 70%;
+}
