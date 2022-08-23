@@ -97,5 +97,8 @@ ul li a:hover::after{
     flex-basis: 50%;
 }
 .right-column img{
-    width: 70%;
+    width: 60%;
+    position: relative;
+    left: 20%;
 }
+
