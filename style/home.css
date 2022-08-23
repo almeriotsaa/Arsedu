@@ -97,8 +97,16 @@ ul li a:hover::after{
     flex-basis: 50%;
 }
 .right-column img{
-    width: 60%;
+    width: 80%;
     position: relative;
-    left: 20%;
+    left: 12%;
+}   
+.toptext{
+    font-size: 50px;
+    font-weight: bold;
+    color: #64B5F6;
+    margin-top: 20px;
+    text-align: left;
 }
+
 
