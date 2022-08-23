@@ -45,7 +45,7 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: #000;
+    color: #606060;
     padding: 0 10px;
     position: relative;
 }
@@ -101,12 +101,6 @@ ul li a:hover::after{
     position: relative;
     left: 12%;
 }   
-.toptext{
-    font-size: 50px;
-    font-weight: bold;
-    color: #64B5F6;
-    margin-top: 20px;
-    text-align: left;
-}
+
 
 
