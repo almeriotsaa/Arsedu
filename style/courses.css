@@ -18,21 +18,19 @@ header{
     display: flex;
     align-items: center;
 }
-.current2 a{
+.current:nth-child(2) a{
     color: #64B5F6;
-    font-weight: bold;
+    font-weight: normal;
 }
-.current1 :hover{
-    font-weight: bold;
-    color: #64B5F6;
+.current, .current_a {
+    font-weight: normal;
+    color: black;
+    transition: all .5s ease-in-out;
 }
-.current2 :hover{
-    font-weight: bold;
+.current:hover, .current_a:hover {
+    font-weight: normal;
     color: #64B5F6;
-}
-.current3 :hover{
-    color: #64B5F6;
-    font-weight: bold;
+    transition: all .5s ease-in-out;
 }
 ul{
     flex: 1;
@@ -41,27 +39,29 @@ ul{
 ul li{
     display: inline-block;
     list-style: none;
-    margin: 0 10px;
+    margin: 0;
+    width: 90px;
+    text-align: center;
 }
 ul li a{
     text-decoration: none;
     color: #000;
-    padding: 0 10px;
     position: relative;
 }
 ul li a::after{
     content: '';
-    width: 0%;
+    width: 0;
     height: 15px;
     background: #64B5F6;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: -55px;
-    transition: 0.5s;
+    transition: all .3s ease-in-out;
 }
 ul li a:hover::after{
     width: 100%;
+    transition: all .3s ease-in-out;
 }
 .button1{
     background: #64B5F6;
