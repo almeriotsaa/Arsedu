@@ -63,7 +63,7 @@ ul li a:hover::after{
     width: 100%;
     transition: all .3s ease-in-out;
 }
-.button1{
+#button1{
     background: #64B5F6;
     border: #64B5F6 1.2px solid;
     padding: 5px;
@@ -74,7 +74,7 @@ ul li a:hover::after{
     border-radius: 15px;
     transition: 0.5s;
 }    
-.button2{
+#button2{
     background: #fff;
     border: #64B5F6 1.2px solid;
     padding: 5px;
@@ -85,7 +85,7 @@ ul li a:hover::after{
     border-radius: 15px;
     transition: 0.5s;
 }
-.button2:hover{
+#button2:hover{
     background: #64B5F6;
     color: #fff;
 }
@@ -101,4 +101,9 @@ ul li a:hover::after{
     position: relative;
     left: 10%;
 }
-
+#top-text{
+    color: #64B5F6;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
