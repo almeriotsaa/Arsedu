@@ -20,17 +20,17 @@ header{
 }
 .current:first-child a{
     color: #64B5F6;
-    font-weight: normal;
+    font-weight: bold;
 }
 .current, .current_a {
     font-weight: normal;
     color: black;
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .current:hover, .current_a:hover {
-    font-weight: normal;
+    font-weight: bold;
     color: #64B5F6;
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 ul{
     flex: 1;
@@ -102,8 +102,28 @@ ul li a:hover::after{
     left: 10%;
 }
 #top-text{
-    color: #64B5F6;
+    color: #000;
     font-size: 40px;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 10%;
+    font-weight: 550;
+}
+#bottom-text{
+    color: #606060;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-top: 3%;
+    font-weight: 540;
+}
+#button3{
+    background: #64B5F6;
+    border: #64B5F6 1.2px solid;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 15%;
+    border-radius: 15px;
+    transition: 0.5s;
 }

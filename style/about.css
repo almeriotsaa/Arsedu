@@ -20,17 +20,17 @@ header{
 }
 .current:nth-child(3) a{
     color: #64B5F6;
-    font-weight: normal;
+    font-weight: bold;
 }
 .current, .current_a {
     font-weight: normal;
     color: black;
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .current:hover, .current_a:hover {
-    font-weight: normal;
+    font-weight: bold;
     color: #64B5F6;
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 ul{
     flex: 1;
