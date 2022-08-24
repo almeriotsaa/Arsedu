@@ -13,6 +13,10 @@ header{
     width: 80%;
     margin: auto;
 }
+.navbar -webkit-any-link{
+    color: -webkit-link;
+    cursor: pointer;
+}
 .navbar{
     margin: 30px auto;
     display: flex;

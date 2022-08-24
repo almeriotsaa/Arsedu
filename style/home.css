@@ -9,6 +9,10 @@ header{
     border-bottom: #e6e6e6 2px solid;
     scroll-behavior: smooth;
 }
+.navbar -webkit-any-link{
+    color: -webkit-link;
+    cursor: pointer;
+}
 .container{
     width: 80%;
     margin: auto;
