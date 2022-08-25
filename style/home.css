@@ -131,3 +131,36 @@ ul li a:hover::after{
     border-radius: 15px;
     transition: 0.5s;
 }
+.banner2{
+    display: flex;
+    margin-top: 30px;
+}
+.left-column2{
+    flex-basis: 50%;
+}
+#top-text2{
+    color: #000;
+    font-size: 35px;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-weight: 550;
+}
+#bottom-text2{
+    color: #606060;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-top: 3%;
+    font-weight: 540;
+}
+#button4{
+    background: #64B5F6;
+    border: #64B5F6 1.2px solid;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 15%;
+    border-radius: 15px;
+    transition: 0.5s;
+}
