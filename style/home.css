@@ -22,6 +22,11 @@ header{
     display: flex;
     align-items: center;
 }
+#profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
 .current:first-child a{
     color: #64B5F6;
     font-weight: bold;
@@ -66,32 +71,6 @@ ul li a::after{
 ul li a:hover::after{
     width: 100%;
     transition: all .3s ease-in-out;
-}
-#button1{
-    background: #64B5F6;
-    border: #64B5F6 1.2px solid;
-    padding: 5px;
-    color: #fff;
-    text-decoration: none;
-    margin: 10px;
-    width: 8%;
-    border-radius: 15px;
-    transition: 0.5s;
-}    
-#button2{
-    background: #fff;
-    border: #64B5F6 1.2px solid;
-    padding: 5px;
-    color: #64B5F6;
-    text-decoration: none;
-    margin: 10px;
-    width: 10%;
-    border-radius: 15px;
-    transition: 0.5s;
-}
-#button2:hover{
-    background: #64B5F6;
-    color: #fff;
 }
 .banner{
     display: flex;
@@ -171,6 +150,7 @@ ul li a:hover::after{
     left: 10%;
 }
 .right-column2 p{
+    flex-basis: 20%;
     color: #000;
     font-size: 18px;
     margin-top: 3%;
