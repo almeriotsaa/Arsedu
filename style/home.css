@@ -84,6 +84,7 @@ ul li a:hover::after{
     width: 50%;
     position: relative;
     left: 30%;
+    margin-top: 5%;
 }
 #top-text{
     color: #000;
