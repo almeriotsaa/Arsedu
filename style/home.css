@@ -81,9 +81,10 @@ ul li a:hover::after{
     flex-basis: 50%;
 }
 .right-column img{
-    width: 80%;
+    width: 50%;
     position: relative;
-    left: 10%;
+    left: 30%;
+    margin-top: 5%;
 }
 #top-text{
     color: #000;
@@ -115,8 +116,12 @@ ul li a:hover::after{
     display: flex;
     margin-top: 30px;
 }
-.left-column2, .right-column2{
+.left-column2{
     flex-basis: 50%;
+}
+.right-column2, .right-column3{
+    flex-basis: 25%;
+    margin-top: 3%;
 }
 #top-text2{
     color: #000;
@@ -147,16 +152,16 @@ ul li a:hover::after{
 }
 .right-column2 img{
     margin-top: 10%;
-    width: 8%;
+    width: 12%;
     position: relative;
-    left: 10%;
+    left: 30%;
 }
 .right-column2 p{
     flex-basis: 20%;
     color: #000;
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 3%;
-    margin-left: 10%;
+    margin-left: 30%;
     font-weight: 550;
 }
 #bottom-textf{
@@ -164,6 +169,28 @@ ul li a:hover::after{
     font-size: 11px;
     margin-top: 1%;
     font-weight: 540;
+    width: 50%;
+}
+.right-column3 img{
+    margin-top: 10%;
+    width: 8%;
+    position: relative;
+    left: 10%;
+}
+.right-column3 p{
+    flex-basis: 20%;
+    color: #000;
+    font-size: 24px;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-weight: 550;
+}
+#bottom-textf2{
+    color: #606060;
+    font-size: 11px;
+    margin-top: 1%;
+    font-weight: 540;
+    width: 50%;
 }
 .main-menu{
     background-color: #fff;
