@@ -81,9 +81,9 @@ ul li a:hover::after{
     flex-basis: 50%;
 }
 .right-column img{
-    width: 80%;
+    width: 50%;
     position: relative;
-    left: 10%;
+    left: 30%;
 }
 #top-text{
     color: #000;
