@@ -4,10 +4,13 @@
     font-family: 'Poppins', sans-serif;
 }
 header{
-    background: #fff;
+    background: #f1f1f1;
     min-height: 70px;   
     border-bottom: #e6e6e6 2px solid;
     scroll-behavior: smooth;
+}
+body{
+    background-color: #f1f1f1;
 }
 .navbar -webkit-any-link{
     color: -webkit-link;
@@ -85,6 +88,9 @@ ul li a:hover::after{
     position: relative;
     left: 30%;
     margin-top: 5%;
+    object-fit: contain;
+    display: inline-block;
+    overflow: hidden;
 }
 #top-text{
     color: #000;
@@ -191,4 +197,15 @@ ul li a:hover::after{
     margin-top: 1%;
     font-weight: 540;
     width: 50%;
+}
+footer{
+    background-color: #353535;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.right-column-f{
+    color: #d9dbe1;
+    font-size: 12px;
+    margin-left: 20px;
 }
