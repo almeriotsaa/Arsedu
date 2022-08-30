@@ -8,6 +8,7 @@ header{
     min-height: 70px;   
     border-bottom: #e6e6e6 2px solid;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 .navbar -webkit-any-link{
     color: -webkit-link;
