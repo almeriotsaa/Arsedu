@@ -204,8 +204,10 @@ footer{
     padding-bottom: 30px;
     margin-top: 30px;
 }
-.right-column-f{
+.center-column-f{
     color: #d9dbe1;
     font-size: 12px;
-    margin-left: 20px;
+    text-align: center;
+    margin-top: auto;
+    padding-bottom: 10px;
 }
