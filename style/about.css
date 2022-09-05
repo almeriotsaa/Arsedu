@@ -3,14 +3,15 @@
     --secondary: #64B5F6;
     --dark: #000;
     --light: #f1f1f1;
-  }
-  
-  * {
+}
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
-  }
-  header {
+}
+
+header {
     background: #f1f1f1;
     min-height: 70px;
     border-bottom: #e6e6e6 2px solid;
@@ -97,24 +98,24 @@ ul li a:hover::after {
     transition: all .3s ease-in-out;
 }
 
-  .about-me {
+.about-me {
     margin-top: 30px;
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
     justify-content: center;
 }
-  
-  .card, .card2, .card3 {
+
+.card, .card2, .card3 {
     width: 100%;
     height: 500px;
     perspective: 1000px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-  }
-  
-  .card__inner, .card__inner2, .card__inner3 {
+}
+
+.card__inner, .card__inner2, .card__inner3 {
     width: 100%;
     height: 100%;
     margin: 30px;
@@ -122,14 +123,14 @@ ul li a:hover::after {
     transform-style: preserve-3d;
     cursor: pointer;
     position: relative;
-  }
-  
-  .card__inner.is-flipped, .card__inner2.is-flipped2, .card__inner3.is-flipped3 {
+}
+
+.card__inner.is-flipped, .card__inner2.is-flipped2, .card__inner3.is-flipped3 {
     transform: rotateY(180deg);
-  }
-  
-  
-  .card__face, .card__face2, .card__face3 {
+}
+
+
+.card__face, .card__face2, .card__face3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -138,36 +139,36 @@ ul li a:hover::after {
     overflow: hidden;
     border-radius: 16px;
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card__face--front, .card__face--front2, .card__face--front3 {
+}
+
+.card__face--front, .card__face--front2, .card__face--front3 {
     background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .card__face--front h2, .card__face--front2 h2, .card__face--front3 h2 {
+}
+
+.card__face--front h2, .card__face--front2 h2, .card__face--front3 h2 {
     color: #FFF;
     font-size: 32px;
-  }
-  
-  .card__face--back, .card__face--back2, .card__face--back3 {
+}
+
+.card__face--back, .card__face--back2, .card__face--back3 {
     background-color: var(--light);
     transform: rotateY(180deg);
-  }
-  
-  .card__content, .card__content2, .card__content3 {
+}
+
+.card__content, .card__content2, .card__content3 {
     width: 100%;
     height: 100%;
-  }
-  
-  .card__header, .card__header2, .card__header3 {
+}
+
+.card__header, .card__header2, .card__header3 {
     position: relative;
     padding: 30px 30px 40px;
-  }
-  
-  .card__header:after, .card__header2:after, .card__header3:after {
+}
+
+.card__header:after, .card__header2:after, .card__header3:after {
     content: '';
     display: block;
     position: absolute;
@@ -178,9 +179,9 @@ ul li a:hover::after {
     background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
     z-index: -1;
     border-radius: 0px 0px 50% 0px;
-  }
-  
-  .pp, .pp2, .pp3 {
+}
+
+.pp, .pp2, .pp3 {
     display: block;
     width: 128px;
     height: 128px;
@@ -189,34 +190,35 @@ ul li a:hover::after {
     background-color: #FFF;
     border: 5px solid #FFF;
     object-fit: cover;
-  }
-  
-  .card__header p, .card__header2 p, .card__header3 p {
+}
+
+.card__header p, .card__header2 p, .card__header3 p {
     color: #FFF;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
-  }
-  
-  .card__body, .card__body2, .card__body3 {
+}
+
+.card__body, .card__body2, .card__body3 {
     padding: 30px;
-  }
-  
-  .card__body h3, .card__body2 h3, .card__body3 h3 {
+}
+
+.card__body h3, .card__body2 h3, .card__body3 h3 {
     color: var(--dark);
     font-size: 18px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 15px;
-  }
-  
-  .card__body p, .card__body2 p, .card__body3 p {
+}
+
+.card__body p, .card__body2 p, .card__body3 p {
     color: var(--dark);
     font-size: 14px;
     line-height: 1.4;
     text-align: justify;
-  }
-  #text{
+}
+
+#text {
     margin-top: 15%;
     margin-left: 10%;
     margin-right: 10%;
@@ -225,4 +227,4 @@ ul li a:hover::after {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 15%;
-  }
+}
