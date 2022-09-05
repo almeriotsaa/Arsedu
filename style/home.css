@@ -128,6 +128,7 @@ ul li a:hover::after {
 }
 
 #top-text {
+    width: 60%;
     color: #000;
     font-size: 40px;
     margin-left: 20%;
