@@ -267,7 +267,7 @@ ul li a:hover::after {
 
 #bottom-textf {
     color: #606060;
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 1%;
     font-weight: 540;
     width: 50%;
@@ -282,7 +282,7 @@ ul li a:hover::after {
 
 #bottom-textf2 {
     color: #606060;
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 1%;
     font-weight: 540;
     width: 50%;
@@ -326,7 +326,7 @@ footer {
 
 .center-column-f {
     color: #d9dbe1;
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 20px;
 }
 
@@ -346,7 +346,7 @@ footer {
     text-align: center;
 }
 
-#bottom-texth {
+/* #bottom-texth {
     color: #606060;
     font-size: 16px;
     margin-left: 20%;
@@ -354,7 +354,7 @@ footer {
     margin-top: 1%;
     font-weight: 540;
     text-align: center;
-}
+} */
 
 .bottom-column {
     width: 20%;
@@ -372,6 +372,14 @@ footer {
 
 .bottom-title {
     margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.bottom-content{
+    font-size: 12px;
+    color: #606060;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .centered-column {
@@ -387,4 +395,6 @@ footer {
     margin-top: 30px;
     margin-right: 20em;
     margin-left: 20em;
+    font-size: 14px;
+    color: #606060;
 }
