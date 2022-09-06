@@ -46,7 +46,7 @@ section{
     transform-style: preserve-3d;
     animation: animateText 10s linear infinite;
 }
- .circle span{
+ /* .circle span{
     position: absolute;
     top: 0;
     left: 0;
@@ -60,7 +60,7 @@ section{
     translateZ(200px);
     border-top: 4px solid #35146f;
     border-bottom: 4px solid #35146f;
-} */
+} */ */
 .circle span::before{
     content: '';
     position: absolute;
