@@ -21,10 +21,10 @@ section{
 .earth{
     position: absolute;
     top: 25em;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     display: flex;
     background: url(../img/maps.jpg);
     background-size: cover;
@@ -48,11 +48,11 @@ section{
 }
  .circle span{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 250px;
+    left: 10px;
     background: #fff;
     color: #35146f;
-    font-size: 3em;
+    font-size: 2em;
     transform-origin: center;
     transform-style: preserve-3d;
     padding: 5px 11px;
@@ -60,8 +60,8 @@ section{
     translateZ(200px);
     border-top: 4px solid #35146f;
     border-bottom: 4px solid #35146f;
-} */
-.circle span::before{
+}
+/* .circle span::before{
     content: '';
     position: absolute;
     top: 0;
@@ -70,7 +70,7 @@ section{
     height: 100%;
     background: #fff;
     transform: translateZ(-5px);
-}
+}  */
 @keyframes animateText{
     0%{
         transform: perspective(1000px) rotateY(360deg) rotateX(15deg) translateY(-30px);
@@ -78,4 +78,39 @@ section{
     100%{
         transform: perspective(1000px) rotateY(0deg) rotateX(15deg) translateY(-30px);
     }
+}
+#back{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+
+}
+.btn{
+    background: transparent;
+    border: #fff 2px solid;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20%;
+    width: 15%;
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 30%;
+}
+.btn2{
+    background: transparent;
+    border: #fff 2px solid;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30%;
+    width: 15%;
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 30%;
 }

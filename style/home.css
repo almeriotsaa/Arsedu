@@ -126,6 +126,7 @@ ul li a:hover::after {
 }
 
 #bottom-text {
+    width: 70%;
     color: #606060;
     font-size: 16px;
     margin-left: 20%;
@@ -214,6 +215,7 @@ ul li a:hover::after {
 }
 
 #top-text2 {
+    width: 50%;
     color: #000;
     font-size: 35px;
     margin-left: 20%;
@@ -221,6 +223,7 @@ ul li a:hover::after {
 }
 
 #bottom-text2 {
+    width: 70%;
     color: #606060;
     font-size: 16px;
     margin-left: 20%;
@@ -246,14 +249,14 @@ ul li a:hover::after {
     margin-top: 10%;
     width: 12%;
     position: relative;
-    left: 30%;
+    left: 10%;
 }
 
 .right-column2 p {
     flex-basis: 20%;
     font-size: 24px;
     margin-top: 3%;
-    margin-left: 30%;
+    margin-left: 10%;
     font-weight: bold;
 }
 
@@ -267,7 +270,7 @@ ul li a:hover::after {
 
 #bottom-textf {
     color: #606060;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 1%;
     font-weight: 540;
     width: 50%;
@@ -282,7 +285,7 @@ ul li a:hover::after {
 
 #bottom-textf2 {
     color: #606060;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 1%;
     font-weight: 540;
     width: 50%;
@@ -342,7 +345,7 @@ footer {
 #text {
     color: #000;
     margin-left: 20px;
-    margin-top: 8%;
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -376,7 +379,7 @@ footer {
 }
 
 .bottom-content{
-    font-size: 12px;
+    font-size: 14px;
     color: #606060;
     margin-left: 10%;
     margin-right: 10%;
@@ -388,7 +391,7 @@ footer {
 }
 
 #title {
-    margin-top: 50px;
+    margin-top: 10%;
 }
 
 #content {
@@ -397,4 +400,35 @@ footer {
     margin-left: 20em;
     font-size: 14px;
     color: #606060;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background: #f1f1f1
+    }
+    header{
+        background: #fff;
+        padding: 0;
+        margin: 0;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar img{
+        width: 70px;
+    }
+    #top-text {
+        color: #000;
+        font-size: 35px;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width: 600px){
+    #nav a{
+        display: none;
+    }
 }
