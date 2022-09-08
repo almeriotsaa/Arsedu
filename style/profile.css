@@ -90,15 +90,17 @@ ul li a:hover::after {
     width: 100%;
     transition: all .3s ease-in-out;
 }
+.bg-img img{
+    width: 100%;
+}
 .foto img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-left: 10%;
-    display: flex;
+    float: left;
 }
-.name h1 {
+#name {
     font-size: 24px;
     margin-left: 25%;
-    float: right;
 }
