@@ -90,40 +90,41 @@ ul li a:hover::after {
     width: 100%;
     transition: all .3s ease-in-out;
 }
-.card-title h1 {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 20px 0;
+
+/*course card view*/
+
+
+.card-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
 }
-.card-title p{
-    font-size: 16px;
-    margin: 20px 0;
+
+.course-card-left .course-card-right{
+    margin-top: 30px;
 }
-.left-column {
-    flex-basis: 50%;
+
+#course_header{
+    padding: 30px;
 }
-.card-item {
-    width: 40%;
+
+.card-container {
+    margin-bottom: 20px;
     background-color: white;
     border-radius: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all .2s ease-in-out;
-    position: relative;
+    width: 35em;
 }
-.right-column {
-    flex-basis: 50%;
+
+#image {
+    height: 20em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-.card-item2 {
-    width: 40%;
-    background-color: white;
-    border-radius: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    transition: all .2s ease-in-out;
-    position: relative;
+
+.course_content {
+    padding: 30px;
 }
