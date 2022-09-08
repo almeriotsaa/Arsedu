@@ -102,38 +102,8 @@ ul li a:hover::after {
     left: 10%;
     top: 270px;
     border-radius: 50%;
-    float: left;
-}
-#name{
-    font-size: 24px;
-    margin-left: 30%;
-    margin-top: 15px;
-    font-weight: bold;
-}
-#as{
-    font-size: 16px;
-    margin-left: 30%;
-    margin-top: 12px;
-}
-.loca img{
-    width: 15px;
-    height: 15px;
-    margin-left: 30%;
-    margin-right: 10px;
-    float: left;
+    margin-left: 10%;
     display: flex;
-    justify-content:space-around;
-}
-#locate{
-    font-size: 14px;
-    margin-top: 12px;
-}
-.social img{
-    width: 15px;
-    height: 15px;
-    margin-left: 30%;
-    margin-right: 10px;
-    float: left;
 }
 #fb{
     font-size: 14px;
@@ -158,4 +128,3 @@ ul li a:hover::after {
     max-width: max-content;
     height: 25%;
 }
-

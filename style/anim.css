@@ -91,7 +91,7 @@ section{
 .btn{
     background: transparent;
     border: #fff 2px solid;
-    padding: 5px;
+    padding: 10px;
     color: #fff;
     text-decoration: none;
     margin-left: 20%;
@@ -104,7 +104,7 @@ section{
 .btn2{
     background: transparent;
     border: #fff 2px solid;
-    padding: 5px;
+    padding: 10px;
     color: #fff;
     text-decoration: none;
     margin-left: 30%;
@@ -113,4 +113,12 @@ section{
     transition: 0.5s;
     cursor: pointer;
     margin-top: 30%;
+}
+.btn:hover{
+    background: #fff;
+    color: #606060;
+}
+.btn2:hover{
+    background: #fff;
+    color: #606060;
 }
