@@ -222,15 +222,15 @@ ul li a:hover::after {
     width: 50%;
     color: #000;
     font-size: 35px;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 10%;
 }
 
 #bottom-text2 {
-    width: 70%;
+    width: 50%;
     color: #606060;
     font-size: 16px;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 3%;
     font-weight: 540;
 }
@@ -241,7 +241,7 @@ ul li a:hover::after {
     padding: 5px;
     color: #fff;
     text-decoration: none;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 3%;
     width: 15%;
     border-radius: 15px;
@@ -253,14 +253,12 @@ ul li a:hover::after {
     margin-top: 10%;
     width: 12%;
     position: relative;
-    left: 10%;
 }
 
 .right-column2 p {
     flex-basis: 20%;
     font-size: 24px;
     margin-top: 3%;
-    margin-left: 10%;
     font-weight: bold;
 }
 
@@ -268,7 +266,6 @@ ul li a:hover::after {
     flex-basis: 20%;
     font-size: 24px;
     margin-top: 3%;
-    margin-left: 10%;
     font-weight: bold;
 }
 
@@ -284,7 +281,6 @@ ul li a:hover::after {
     margin-top: 10%;
     width: 8%;
     position: relative;
-    left: 10%;
 }
 
 #bottom-textf2 {
@@ -476,11 +472,4 @@ footer .social-icon li a:hover{
     0% {transform: translateX(0);}
     50% {transform: translateX(-25%);}
     100% {transform: translateX(-50%);}
-}
-
-footer .social-icon{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }

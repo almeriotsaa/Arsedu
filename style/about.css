@@ -11,10 +11,6 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
 header {
     background: #f1f1f1;
     min-height: 70px;
@@ -23,13 +19,17 @@ header {
     overflow: hidden;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: #f1f1f1;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+.nav-item:nth-child(3) a {
+    color: #64B5F6;
+    font-weight: bold;
 }
 
 .navbar -webkit-any-link {
@@ -49,11 +49,6 @@ body {
     height: 35px;
     margin-left: 40px;
     border-radius: 50%;
-}
-
-.nav-item:nth-child(3) a {
-    color: #64B5F6;
-    font-weight: bold;
 }
 
 .nav-item, .nav-item-direct {
