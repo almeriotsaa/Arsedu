@@ -19,7 +19,7 @@ body {
     background-color: #f1f1f1;
 }
 
-.course-card-container {
+.course-card-right {
     width: 80%;
     margin: auto;
 }
@@ -103,8 +103,8 @@ ul li a:hover::after {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 25em;
+    padding-right: 25em;
 }
 
 #course-header {
@@ -132,7 +132,7 @@ ul li a:hover::after {
 .course-card {
     height: 500px;
     margin: 50px;
-    width: 35em;
+    width: 30em;
     position: relative;
     overflow: hidden
 }
