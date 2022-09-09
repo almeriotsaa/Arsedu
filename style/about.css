@@ -11,24 +11,25 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
 header {
     background: #f1f1f1;
     min-height: 70px;
     border-bottom: #e6e6e6 2px solid;
     scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 body {
     background-color: #f1f1f1;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+.nav-item:nth-child(3) a {
+    color: #64B5F6;
+    font-weight: bold;
 }
 
 .navbar -webkit-any-link {
@@ -37,9 +38,10 @@ body {
 }
 
 .navbar {
-    margin: 30px auto;
     display: flex;
     align-items: center;
+    width: 80%;
+    margin: 30px auto;
 }
 
 #profile {
@@ -47,11 +49,6 @@ body {
     height: 35px;
     margin-left: 40px;
     border-radius: 50%;
-}
-
-.nav-item:nth-child(3) a {
-    color: #64B5F6;
-    font-weight: bold;
 }
 
 .nav-item, .nav-item-direct {
@@ -64,6 +61,14 @@ body {
     font-weight: bold;
     color: #64B5F6;
     transition: all .2s ease-in-out;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
 }
 
 ul {
