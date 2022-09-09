@@ -22,7 +22,7 @@ body {
     background-color: #f1f1f1;
 }
 
-.container {
+.course-card-container {
     width: 80%;
     margin: auto;
 }
@@ -106,7 +106,7 @@ ul li a:hover::after {
     justify-content: center;
 }
 
-.card, .card2, .card3 {
+.course-card, .card2, .card3 {
     width: 100%;
     height: 500px;
     perspective: 1000px;
@@ -218,13 +218,10 @@ ul li a:hover::after {
     text-align: justify;
 }
 
-#text {
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
+#miracle-text-bottom {
     display: flex;
     justify-content: center;
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 15%;
+    margin: 15% 10%;
 }
