@@ -13,7 +13,7 @@ header {
 }
 
 body {
-    background-color: #ffff;
+    background-color: #f1f1f1;
 }
 
 .navbar -webkit-any-link {
@@ -90,41 +90,65 @@ ul li a:hover::after {
     width: 100%;
     transition: all .3s ease-in-out;
 }
-.bg-img {
+.profile{
+    background-color: #fff;
+    height: 350px;
+    border-bottom: #e6e6e6 2px solid;
+}
+.bg-img img{
     width: 100%;
-    height: auto;
-    max-width: max-content;
+    height: 100%;
 }
 .foto img {
     position: absolute;
     width: 170px;
     height: 170px;
     left: 10%;
-    top: 270px;
+    top: 230px;
     border-radius: 50%;
-    margin-left: 10%;
     display: flex;
-}
-#fb{
-    font-size: 14px;
-    margin-top: 12px;
     float: left;
-    
 }
-.linked img{
+#name {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 30%;
+    font-weight: bold;
+}
+#as {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30%;
+    color: #606060;
+}
+.social{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.social img{
     width: 15px;
     height: 15px;
-    margin-left: 30%;
-    margin-right: 10px;
     float: left;
+    margin-right: 10px;
 }
-#lkd{
-    font-size: 14px;
-    margin-top: 12px;
+.social li{
+    font-size: 12px;
+    text-align: left;
+    color: #606060;
 }
-
-.rectangle{
-    width: 100%;
-    max-width: max-content;
-    height: 25%;
+.text-progress p{
+    font-size: 24px;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.text-complete p{
+    font-size: 24px;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-weight: bold;
 }

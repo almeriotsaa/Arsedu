@@ -58,6 +58,7 @@ body {
     justify-content: space-between;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 ul {
@@ -94,6 +95,9 @@ ul li a::after {
 ul li a:hover::after {
     width: 100%;
     transition: all .3s ease-in-out;
+}
+.navbar .icon{
+    display: none;
 }
 
 .banner {
@@ -205,7 +209,7 @@ ul li a:hover::after {
     bottom: 15%;
 }
 
-.left-column {
+.left-column2 {
     flex-basis: 50%;
 }
 
@@ -409,7 +413,7 @@ footer {
         background: #f1f1f1
     }
     header{
-        background: #fff;
+        background: #f1f1f1;
         padding: 0;
         margin: 0;
         height: 50px;
@@ -426,9 +430,102 @@ footer {
         margin-left: 10%;
         margin-top: 10%;
     }
+    footer{
+        background-color: #353535;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 600px){
-    #nav a{
+    #nav{
+        display: none;
+    }
+    .left-column{
+        flex-basis: 100%;
+    }
+    #top-text{
+        font-size: 24px;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+    #bottom-text{
+        font-size: 11px;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+    #button{
+        width: 20%;
+        margin-left: 10%;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .right-column{
+        display: none;
+    }
+    .left-column2{
+        flex-basis: 100%;
+    }
+    #top-text2{
+        font-size: 24px;
+        width: 40%;
+        margin-left: 10%;
+    }
+    #bottom-text2{
+        font-size: 11px;
+        margin-left: 10%;
+    }
+    #button2{
+        font-size: 11px;
+        width: 20%;
+        margin-left: 10%;
+    }
+    .right-column2{
+        display: none;
+    }
+    .right-column3{
+        display: none;
+    }
+    .centered-column{
+        flex-basis: 100%;
+    }
+    #title{
+        font-size: 24px;
+        margin-top: 15%;
+    }
+    #content{
+        font-size: 11px;
+        margin-top: 10px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .column{
+        flex-basis: 100%;
+    }
+    .column img{
+        width: 40%;
+    }
+    .column h1{
+        font-size: 16px;
+    }
+    .column p{
+        display: none;
+    }
+    #circle3{
+        z-index: -1;
+    }
+    #circle2{
+        margin-left: 20%;
+    }
+    #circle{
+        margin-bottom: 15px;
+        margin-left: 20%;
+    }
+    .triangle3{
+        display: none;
+    }
+    .triangle4{
         display: none;
     }
 }
