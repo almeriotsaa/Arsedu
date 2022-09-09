@@ -11,6 +11,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 header {
     background: #f1f1f1;
     min-height: 70px;
@@ -22,7 +26,7 @@ body {
     background-color: #f1f1f1;
 }
 
-.course-card-container {
+.container {
     width: 80%;
     margin: auto;
 }
@@ -45,18 +49,18 @@ body {
     border-radius: 50%;
 }
 
-.current:nth-child(3) a {
+.nav-item:nth-child(3) a {
     color: #64B5F6;
     font-weight: bold;
 }
 
-.current, .current_a {
+.nav-item, .nav-item-direct {
     font-weight: normal;
     color: black;
     transition: all .2s ease-in-out;
 }
 
-.current:hover, .current_a:hover {
+.nav-item:hover, .nav-item-direct:hover {
     font-weight: bold;
     color: #64B5F6;
     transition: all .2s ease-in-out;
@@ -106,7 +110,7 @@ ul li a:hover::after {
     justify-content: center;
 }
 
-.course-card, .card2, .card3 {
+.card, .card2, .card3 {
     width: 100%;
     height: 500px;
     perspective: 1000px;
