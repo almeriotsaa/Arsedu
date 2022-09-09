@@ -11,6 +11,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 header {
     background: #f1f1f1;
     min-height: 70px;
@@ -21,6 +25,11 @@ header {
 
 body {
     background-color: #f1f1f1;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
 }
 
 .navbar -webkit-any-link {
@@ -42,18 +51,18 @@ body {
     border-radius: 50%;
 }
 
-.current:nth-child(3) a {
+.nav-item:nth-child(3) a {
     color: #64B5F6;
     font-weight: bold;
 }
 
-.current, .current_a {
+.nav-item, .nav-item-direct {
     font-weight: normal;
     color: black;
     transition: all .2s ease-in-out;
 }
 
-.current:hover, .current_a:hover {
+.nav-item:hover, .nav-item-direct:hover {
     font-weight: bold;
     color: #64B5F6;
     transition: all .2s ease-in-out;

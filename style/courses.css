@@ -11,6 +11,10 @@ header {
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: #f1f1f1;
 }
@@ -38,18 +42,18 @@ body {
     border-radius: 50%;
 }
 
-.current:nth-child(2) a {
+.nav-item:nth-child(2) a {
     color: #64B5F6;
     font-weight: bold;
 }
 
-.current, .current_a {
+.nav-item, .nav-item-direct {
     font-weight: normal;
     color: black;
     transition: all .2s ease-in-out;
 }
 
-.current:hover, .current_a:hover {
+.nav-item:hover, .nav-item-direct:hover {
     font-weight: bold;
     color: #64B5F6;
     transition: all .2s ease-in-out;
@@ -117,39 +121,42 @@ ul li a:hover::after {
     color: #606060;
 }
 
-#image {
+.image {
     height: 500px;
     width: 350px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    transition: 2s;
-}
-
-.course-content {
-    padding: 30px;
+    transition: 1s;
 }
 
 .course-card {
     height: 500px;
     margin: 50px;
     width: 35em;
+    position: relative;
     overflow: hidden
 }
 
+.course-card > img {
+    position: absolute;
+}
 .course-content {
     height: 100px;
-    width: 350px;
+    width: 560px;
+    z-index: 3;
     box-sizing: border-box;
     position: absolute;
-    bottom: 65px;
+    bottom: 0;
     background: rgb(27, 27, 27, .5);
     color: white;
     transition: .5s;
+    padding: 30px;
 }
 
 .desc {
     visibility: hidden;
     opacity: 0;
+    margin-top: 10px;
 }
 
 .course-card:hover {
@@ -158,7 +165,6 @@ ul li a:hover::after {
 
 .course-card:hover .course-content {
     height: 200px;
-    bottom: 65px;
     background: black;
 }
 
@@ -167,6 +173,6 @@ ul li a:hover::after {
     visibility: visible;
 }
 
-.course-card:hover #image {
+.course-card:hover .image {
     transform: scale(1.1) rotate(5deg);
 }

@@ -12,6 +12,10 @@ header {
     overflow: hidden;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: #f1f1f1;
 }
@@ -35,13 +39,13 @@ body {
     border-radius: 50%;
 }
 
-.current, .current_a {
+.nav-item, .nav-item-direct {
     font-weight: normal;
     color: black;
     transition: all .2s ease-in-out;
 }
 
-.current:hover, .current_a:hover {
+.nav-item:hover, .nav-item-direct:hover {
     font-weight: bold;
     color: #64B5F6;
     transition: all .2s ease-in-out;
