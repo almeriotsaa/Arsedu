@@ -103,8 +103,8 @@ ul li a:hover::after {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    padding-left: 25em;
-    padding-right: 25em;
+    padding-left: 19em;
+    padding-right: 19em;
 }
 
 #course-header {
