@@ -96,7 +96,7 @@ ul li a:hover::after {
 }
 .profile{
     background-color: #fff;
-    height: 350px;
+    height: 390px;
     border-bottom: #e6e6e6 2px solid;
 }
 .bg-img img{
@@ -132,6 +132,7 @@ ul li a:hover::after {
     justify-content: space-between;
     margin-top: 10px;
     margin-left: 30%;
+
 }
 .social img{
     width: 15px;
