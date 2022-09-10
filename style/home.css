@@ -422,12 +422,6 @@ footer {
     }
 }
 
-@media only screen and (max-width: 600px) {
-    #nav a {
-        display: none;
-    }
-}
-
 /* waves */
 .ocean {
     height: 280px;

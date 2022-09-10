@@ -97,7 +97,6 @@ ul li a:hover::after {
 .profile{
     background-color: #fff;
     height: 350px;
-    border-bottom: #e6e6e6 2px solid;
 }
 .bg-img img{
     width: 100%;
@@ -196,6 +195,14 @@ ul li a:hover::after {
     color: white;
     transition: .5s;
     padding: 30px;
+}
+
+.course-content p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
 }
 
 .desc {
