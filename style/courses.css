@@ -95,6 +95,7 @@ ul li a:hover::after {
     transition: all .3s ease-in-out;
 }
 
+
 /*course card view*/
 
 .course-card-parent {
