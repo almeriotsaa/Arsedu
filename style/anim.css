@@ -61,16 +61,6 @@ section{
     border-top: 4px solid #35146f;
     border-bottom: 4px solid #35146f;
 }
-/* .circle span::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    transform: translateZ(-5px);
-}  */
 @keyframes animateText{
     0%{
         transform: perspective(1000px) rotateY(360deg) rotateX(15deg) translateY(-30px);

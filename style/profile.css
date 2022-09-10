@@ -96,7 +96,7 @@ ul li a:hover::after {
 }
 .profile{
     background-color: #fff;
-    height: 390px;
+    height: 350px;
 }
 .bg-img img{
     width: 100%;
@@ -131,7 +131,6 @@ ul li a:hover::after {
     justify-content: space-between;
     margin-top: 10px;
     margin-left: 30%;
-
 }
 .social img{
     width: 15px;
@@ -160,10 +159,10 @@ ul li a:hover::after {
 .image {
     height: 500px;
     width: 350px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     transition: 1s;
 }
-
 .course-card-parent {
     display: flex;
     flex-direction: row;
@@ -173,12 +172,11 @@ ul li a:hover::after {
     padding-left: 3%;
     padding-right: 10%;
 }
-
 .course-card {
     height: 500px;
     margin-left: 10%;
     margin-top: 20px;
-    width: 35em;
+    width: 30em;
     position: relative;
     overflow: hidden
 }
@@ -186,7 +184,6 @@ ul li a:hover::after {
 .course-card > img {
     position: absolute;
 }
-
 .course-content {
     height: 100px;
     width: 560px;
@@ -198,15 +195,14 @@ ul li a:hover::after {
     color: white;
     transition: .5s;
     padding: 30px;
-    border-radius: 10px;
 }
 
 .course-content p{
     font-size: 18px;
-    font-weight: normal;
-    margin-left: 0;
-    margin-bottom: 10px;
+    font-weight: bold;
     margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
 }
 
 .desc {
